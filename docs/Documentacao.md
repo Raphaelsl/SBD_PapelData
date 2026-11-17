@@ -1,5 +1,5 @@
 # Requisitos
 
-# Diagrama
+# Diagrama de Entidade e Relacionamento
 
 # Modelo Logico
