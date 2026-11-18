@@ -1,0 +1,74 @@
+<%- include('partials/header', { pageTitle: 'Início' }) %>
+    <div class="p-4 mb-4 bg-white rounded-3 shadow-sm border">
+        <div class="container-fluid py-2">
+            <h1 class="display-6 fw-bold text-primary">PapelData — Papelaria &amp; Gráfica Rápida</h1>
+            <p class="col-md-10 fs-6 text-secondary mb-3">
+                Sistema de gerenciamento relacional de produtos de papelaria, montagem de listas de material escolar,
+                ordens de serviço de gráfica rápida e vendas.
+            </p>
+            <div class="d-flex align-items-center gap-2">
+                <span class="badge bg-success">PostgreSQL Conectado (<%= dbInfo.database %>)</span>
+                <a href="/health" class="btn btn-outline-secondary btn-sm">Ver JSON (/health)</a>
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">📦 Produtos &amp; Estoque</h5>
+                    <p class="card-text text-muted small">
+                        Cadastro de materiais de papelaria, controle de estoque atual, estoque mínimo e fornecedores.
+                    </p>
+                    <a href="/produtos" class="btn btn-primary btn-sm">Acessar Produtos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">🎒 Listas Escolares</h5>
+                    <p class="card-text text-muted small">
+                        Listas de material por escola e série, com cálculo automático de orçamento baseado no estoque.
+                    </p>
+                    <a href="/listas-escolares" class="btn btn-primary btn-sm">Acessar Listas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">🖨️ Gráfica Rápida</h5>
+                    <p class="card-text text-muted small">
+                        Controle de ordens de serviço (impressão, encadernação, plastificação, plotagem) e status de
+                        execução.
+                    </p>
+                    <a href="/ordens-servico" class="btn btn-primary btn-sm">Acessar Gráfica</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">🛒 Vendas &amp; Atendimento</h5>
+                    <p class="card-text text-muted small">
+                        Registro transacional de vendas com baixa automática de estoque e histórico de preços.
+                    </p>
+                    <a href="/vendas" class="btn btn-success btn-sm">Nova Venda</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">📊 Relatórios Gerenciais</h5>
+                    <p class="card-text text-muted small">
+                        Consultas SQL analíticas: alerta de reposição de estoque, faturamento por categoria e itens mais
+                        vendidos.
+                    </p>
+                    <a href="/relatorios" class="btn btn-dark btn-sm">Ver Relatórios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer') %>

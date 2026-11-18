@@ -1,0 +1,10 @@
+<%- include('partials/header', { pageTitle: 'Erro no Servidor' }) %>
+    <div class="alert alert-danger shadow-sm my-4" role="alert">
+        <h4 class="alert-heading fw-bold">Ocorreu um erro ao processar a requisição</h4>
+        <p class="mb-2">
+            <%= message || 'Erro interno no servidor.' %>
+        </p>
+        <hr />
+        <a href="/" class="btn btn-outline-danger btn-sm">Voltar para o Início</a>
+    </div>
+    <%- include('partials/footer') %>

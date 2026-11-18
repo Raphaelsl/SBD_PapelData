@@ -1,8 +1,13 @@
 const express = require('express');
 const { checkConnection } = require('../db');
 const router = express.Router();
-router.get('/', (req, res) => {
-    res.send('PapelData no ar! 🚀 Acesse /health para testar o banco.');
+router.get('/', async (req, res, next) => {
+    try {
+        const dbInfo = await checkConnection();
+        res.render('index', { dbInfo });
+    } catch (err) {
+        next(err);
+    }
 });
 router.get('/health', async (req, res) => {
     try {
