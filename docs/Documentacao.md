@@ -7,7 +7,8 @@
 
 
 # Modelo Logico
-[Modelo Relacional.pdf](https://github.com/user-attachments/files/35045692/Modelo.Relacional.pdf)[Modelo_Lógico_Relacional.md](https://github.com/user-attachments/files/35045827/Modelo_Logico_Relacional.md)
+[Modelo Relacional.pdf](https://github.com/user-attachments/files/35045692/Modelo.Relacional.pdf)
+[Modelo_Lógico_Relacional.md](https://github.com/user-attachments/files/35045827/Modelo_Logico_Relacional.md)
 
 ## 1. Cadastros Principais
 
