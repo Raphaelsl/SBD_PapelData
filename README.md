@@ -10,7 +10,6 @@ O **PapelData** é um Sistema de Banco de Dados (SBD) relacional com interface w
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **SGBD:** PostgreSQL
 * **Backend:** Node.js + Express
 * **Driver de Conexão (SQL Puro):** `pg` (node-postgres)
 * **Interface Gráfica (Web):** EJS + Bootstrap 5
