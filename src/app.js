@@ -2,21 +2,21 @@ const path = require('path');
 const express = require('express');
 const indexRoutes = require('./routes/index');
 const app = express();
-// Configuração do motor de views EJS
+//ejs
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-// Arquivos estáticos (CSS/imagens futuras)
+//imagens
 app.use(express.static(path.join(__dirname, 'public')));
 // Leitura de formulários HTML (POST) e JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// Rotas
+//rotes
 app.use('/', indexRoutes);
-// 404: página não encontrada
+// 404
 app.use((req, res) => {
     res.status(404).render('404');
 });
-// Tratador central de erros
+//tratador de erros
 app.use((err, req, res, next) => {
     console.error('[erro]', err.message);
     res.status(500).render('error', {
