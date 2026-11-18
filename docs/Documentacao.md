@@ -7,8 +7,9 @@
 
 
 # Modelo Logico
-[Modelo Relacional.pdf](https://github.com/user-attachments/files/35045692/Modelo.Relacional.pdf)
-<img width="500" height="528" alt="image" src="https://github.com/user-attachments/assets/c4477bce-cbe7-45bd-934c-e54f080e3fc3" />
+[Modelo Relacional.pdf](https://github.com/user-attachments/files/35045692/Modelo.Relacional.pdf)  
+
+<img width="500" height="528" alt="image" src="https://github.com/user-attachments/assets/c4477bce-cbe7-45bd-934c-e54f080e3fc3" />  
 
 [Modelo_Lógico_Relacional.md](https://github.com/user-attachments/files/35045827/Modelo_Logico_Relacional.md)
 
