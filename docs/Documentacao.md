@@ -2,7 +2,7 @@
 
 | Campo | Descrição |
 | :--- | :--- |
-| **Nome do SBD** | **PapelData** — Sistema de Banco de Dados para Gestão de Papelaria, Gráfica Rápida e Listas de Material Escolar.<br><br>**Desenvolvimento:**<br>• Raphael Lameira — Matrícula: `[SUA_MATRÍCULA]`<br>• `[NOME_COMPLETO_DA_DUPLA]` — Matrícula: `[MATRÍCULA_DA_DUPLA]` |
+| **Nome do SBD** | **PapelData** — Sistema de Banco de Dados para Gestão de Papelaria, Gráfica Rápida e Listas de Material Escolar.<br><br>**Desenvolvimento:**<br>• Raphael Sousa Lameira — Matrícula: 25.1.8114 <br>• Ana Beatriz da Silva — Matrícula: 25.1.8134 |
 | **Sobre o Projeto** | O **PapelData** é um Sistema de Banco de Dados (SBD) relacional com interface web desenvolvido para gerenciar de forma integrada o catálogo híbrido (produtos físicos e serviços de gráfica), o controle de estoque e fornecedores, a montagem e orçamento de listas de material escolar por instituição de ensino, o ponto de venda (PDV) e o acompanhamento de ordens de serviço de gráfica rápida. O sistema visa substituir controles manuais por uma base relacional íntegra, permitindo consultas gerenciais e operacionais em tempo real. |
 | **Requisitos** | Os requisitos de dados, regras de negócio e funcionalidades atendidos pelo SBD estão detalhados a seguir. |
 
